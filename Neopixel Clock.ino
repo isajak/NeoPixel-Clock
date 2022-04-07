@@ -95,7 +95,7 @@ void updateTime() {
    currentSecond = now.Second();
    lastUpdate = millis();
 } 
-// Prints time on lcd display
+// Prints time on oled display
 void draw(void) {
   // Set font to Helvetica size 24
   oled.setFont(u8g_font_helvB24);
